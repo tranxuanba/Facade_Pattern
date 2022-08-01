@@ -1,3 +1,5 @@
+package demo_Facade_Pattern;
+
 public class ShopFacade {
     private static final ShopFacade INSTANCE = new ShopFacade();
     private AccountService accountService;

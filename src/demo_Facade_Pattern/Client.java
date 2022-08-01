@@ -1,3 +1,5 @@
+package demo_Facade_Pattern;
+
 public class Client {
     public static void main(String[] args) {
         ShopFacade.getInstance().buyProductByCashWithFreeShipping("thoitran.com");
